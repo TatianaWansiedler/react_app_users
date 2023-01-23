@@ -1,0 +1,5 @@
+.app_container {
+  background: #e6b2c6;
+  background: linear-gradient(to right, #e6b2c6, #d6e5fa);
+  padding: 30px;
+}

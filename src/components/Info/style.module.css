@@ -1,0 +1,17 @@
+li {
+  display: inline-block;
+  text-align: center;
+  padding: 10px;
+}
+.info {
+  color: #9b45e4;
+  font-weight: bold;
+  font-size: 20px;
+  display: block;
+}
+.info + span {
+  color: #969798;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  font-weight: bold;
+}

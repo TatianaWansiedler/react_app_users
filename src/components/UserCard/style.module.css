@@ -1,0 +1,76 @@
+.card {
+  height: 450px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #fefefe;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.image {
+  height: 150px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: 2px solid #6f6f6f9f;
+}
+.block {
+  position: relative;
+}
+.status {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: #05d656;
+  top: 20px;
+  right: 103px;
+  border: 3px solid white;
+}
+.info {
+  margin: 20px 0;
+  list-style-type: none;
+  padding: 0;
+}
+.text h2 {
+  margin: 10px;
+  font-size: 26px;
+  color: #6f6f6f;
+}
+.text p {
+  margin: 0;
+  color: #999;
+  font-size: 16px;
+}
+.action {
+  display: flex;
+  justify-content: space-around;
+}
+.button {
+  width: 45%;
+  padding: 16px 20px;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.button_follow {
+  background-color: #9a45e4cc;
+}
+
+.button_message {
+  background-color: #e13a9ec2;
+}
+
+.button_follow:hover {
+  transition: 0.8s;
+  background-color: #9a45e44d;
+  color: #6f6f6f;
+}
+
+.button_message:hover {
+  transition: 0.8s;
+  background-color: #e13a9e44;
+  color: #6f6f6f;
+}
